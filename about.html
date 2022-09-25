@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>VCT-Tea</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/d99104cf2d.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <section class="header">
+           
+            <nav>
+                <a href="Home.html"><img src="images/logo.png" width="100" height="100"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Vcttea.html">PRODUCTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="login.css">LOGIN/SIGNUP</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>               
+            </nav>
+            <div  class="text-box">
+                <h1>About Us</h1>
+                <h3></h3>
+                <h4></h4>
+                <h5></h5>
+                <h6></h6>
+                <h7></h7>
+                <h5>Swipe Down </h5>
+                <i class="fa fa-arrow-down"></i>  
+            </div>
+        </section>
+        
+        <!------------testimonial------------------>
+        <section id="testimonial">
+            <div class="title-text">
+                <p>TESTIMONIAL</p>
+                <h1>What Customers Say</h1>
+            </div>
+            <div class="testimonial-row">
+                <div class="testimonial-col">
+                    <div class="user">
+                        <img src="images/testimonial-1.jpg">
+                        <div class="user-info">
+                            <h4>JANE FOSTER <i class="fa-brands fa-twitter"></i></h4>
+                            <small>@fosterjane</small>
+                        </div>
+                    </div>
+                    <p>I am a green tea lover, and also very picky about it! I discovered this yearly Japanese tea offering 3 years ago, and needless to say, I am hooked! Now, I eagerly await the email that the current year's harvest is ready to purchase. My first year, I ordered 1 bag. Last year, 2. Today, ordered my 4th and 5th bags:) This is high quality tea, consistently smooth, floral, delicate,never bitter. It also holds up well to brewing up to 3 times with good flavor. Yes, it is a bit pricey. But SO worth it!</p>
+                </div>
+                <div class="testimonial-col">
+                    <div class="user">
+                        <img src="images/testimonial-2.jpg">
+                        <div class="user-info">
+                            <h4>JAKE PAUL <i class="fa-brands fa-twitter"></i></h4>
+                            <small>@jakepaul</small>
+                        </div>
+                    </div>
+                    <p>I drink a LOT of tea ( cannot abide the flavor of coffee!!) and this is the BEST EVER !! Hope they don't ever stop making this Earl Grey, I don't know what tea I'd drink !! Plain tea just won't cut it after drinking this double bergamot for awhile, (by awhile, I mean years and years). BEST TEA EVER !!!</p>
+                </div>
+                <div class="testimonial-col">
+                    <div class="user">
+                        <img src="images/testimonial-3.jpg">
+                        <div class="user-info">
+                            <h4>JENNIE RUBYJANE <i class="fa-brands fa-twitter"></i></h4>
+                            <small>@rubyjennie</small>
+                        </div>
+                    </div>
+                    <p>I gave up soda years ago, except for the occasional organic root beer. When I tried this tea it tasted so much like root beer soda that I made a simple syrup and steeped the tea for about a half hour, combined the two and poured it over ice and filled the glass with carbonated water. Absolutely perfect! I make my own carbonated water so the whole drink is healthy and safe. It's also helpful for an upset stomach.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!------------Testimonial End--------------->
+
+        
+<!----------------footer----------------->
+        <section>
+            <div class="footer">
+                <div class="col-1">
+                    <h3>USEFUL LINKS</h3>
+                    <a href="Home.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="Vcttea.html">PRODUCTS</a>
+                    <a href="contact.html">CONTACT</a>
+                </div>
+                <div class="col-2">
+                    <h3>NEWSLETTER</h3>
+                    <form>
+                        <input type="email" placeholder="Your email address" required>
+                        <br>
+                        <button type="submit">SUBSCRIBE NOW</button>
+                    </form>
+                </div>
+
+                <div class="col-3">
+                    <h3>CONTACT</h3>
+                    <p>123, XYZ road, BSK3<br>Bangalore, Karnataka,IN</p>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-behance"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------Javascript For ToggleMenu-------->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+
+
+    </body>
+</html>

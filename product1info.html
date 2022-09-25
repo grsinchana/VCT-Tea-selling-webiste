@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>black tea</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/d99104cf2d.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        
+        <section class="header">          
+            <nav>
+                <a href="Home.html"><img src="images/logo.png" width="100" height="100"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Vcttea.html">PRODUCTS</a></li>
+                        <li><a href="contact.html">CONTACT </a></li>
+                        <li><a href="login.html">LOGIN/SIGNUP</a></li>
+                    </ul>
+                </div>
+                
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div  class="text-box">
+                <h1>Product Description</h1>
+                <h3></h3>
+                <h4></h4>
+                <h5></h5>
+                <h6></h6>
+                <h7></h7>
+                <h5>Swipe Down </h5>
+                <i class="fa fa-arrow-down"></i>  
+            </div>
+        </section>
+<!----------------Description Part----------->
+
+        <section class="info">
+            <h1>BLACK TEA</h1><br><br>
+            <h3>ABOUT</h3>
+            <p style="text-align: start;font-size:add_size">Black tea is made from the fermented leaves of the Camellia sinensis 
+                plant. These dried leaves and leaf buds also make green and
+                oolong teas.
+                Black tea contains 2% to 4% caffeine, which affects thinking and
+                alertness.<br> It also contains antioxidants and other substances that might
+                help protect the heart and blood vessels. It has different properties than
+                green tea, which is made from the fresh leaves of the same plant.</p>
+            <h3>USES</h3>
+            <p style="text-align: start;font-size:add_size"><b>>>></b>&nbsp;&nbsp;Mental alertness. Drinking black tea and other caffeinated beverages
+                helps to keep people alert and improve attention, even after extended
+                periods without sleep<br><b>>>></b>&nbsp;&nbsp; Blood pressure. Drinking caffeinated beverages, including black tea,
+                helps increase blood pressure in older people who have low blood
+                pressure after eating.<br><b>>>></b>&nbsp;&nbsp;Heart attack. People who drink black tea seem to have a lower risk of
+                having a heart attack.</p>
+
+                
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/bt1.jpg"  style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="images/bt2.jpg"  style="width:100%">
+                        </div>
+                            
+                                
+                    </div>
+        </section>
+
+
+<!---------footer------------->
+
+        <section>
+            <div class="footer">
+                <div class="col-1">
+                    <h3>USEFUL LINKS</h3>
+                    <a href="Home.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="Vcttea.html">PRODUCTS</a>
+                    <a href="contact.html">CONTACT</a>
+                </div>
+                <div class="col-2">
+                    <h3>NEWSLETTER</h3>
+                    <form>
+                        <input type="email" placeholder="Your email address" required>
+                        <br>
+                        <button type="submit">SUBSCRIBE NOW</button>
+                    </form>
+                </div>
+
+                <div class="col-3">
+                    <h3>CONTACT</h3>
+                    <p>123, XYZ road, BSK3<br>Bangalore, Karnataka,IN</p>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-behance"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------Javascript For ToggleMenu-------->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
